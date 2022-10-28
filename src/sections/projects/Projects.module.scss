@@ -1,0 +1,10 @@
+.projects__section {
+  padding-top: 220px;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 500px) {
+  .projects__section {
+    padding-top: 100px;
+  }
+}

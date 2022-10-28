@@ -1,0 +1,17 @@
+@import "../styles/colors";
+
+.button {
+  padding: 7px 25px;
+  background-color: $blue;
+  color: $offWhite;
+  border: none;
+  border-radius: 7px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}

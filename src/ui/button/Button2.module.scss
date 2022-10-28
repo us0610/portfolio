@@ -1,0 +1,13 @@
+@import "../styles/colors";
+
+.button {
+  color: $blue;
+  border-radius: 7px;
+  padding: 7px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: rgba($color: $blue, $alpha: 0.2);
+  }
+}

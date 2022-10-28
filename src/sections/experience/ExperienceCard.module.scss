@@ -1,0 +1,42 @@
+@import "../../ui/styles/colors";
+
+.card {
+  padding: 20px;
+  border-radius: 7px;
+  background: $cardbg;
+  max-width: 530px;
+  margin-top: 60px;
+  border: 1px solid #444;
+
+  span {
+    font-size: 14px;
+    color: $darkwhite;
+    margin-bottom: 20px;
+  }
+  ul {
+    margin-top: 20px;
+    gap: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: disc;
+    justify-content: flex-start;
+    list-style-position: inside;
+
+    p {
+      display: inline;
+    }
+  }
+}
+
+.company__link {
+  color: $blue;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    margin-top: 30px;
+  }
+}

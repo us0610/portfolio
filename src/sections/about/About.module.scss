@@ -1,0 +1,40 @@
+.about__section {
+  padding-top: 220px;
+}
+
+.about__content__wrapper {
+  margin-top: 60px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 70px;
+
+  p {
+    max-width: 630px;
+  }
+
+  ul {
+    list-style: disc;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .tech__div {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about__content__wrapper {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .about__section {
+    padding-top: 100px;
+  }
+}
