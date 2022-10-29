@@ -20,11 +20,6 @@ const Hero = () => {
             freelancing on upwork and looking for new opportunities.
           </p>
           <Button link="mailto:ujjwal158b@gmail.com" text="Contact" />
-          <Button2
-            link="#projects"
-            text="View projects"
-            className={styles.button}
-          />
         </div>
       </div>
       <img src={heroImg} alt="hero-img" className={styles.hero__img} />
