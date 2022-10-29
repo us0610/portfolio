@@ -19,8 +19,12 @@ const Hero = () => {
             (and design) and marketing/creative websites. Currently I am
             freelancing on upwork and looking for new opportunities.
           </p>
-          <Button text="Contact" />
-          <Button2 text="View projects" className={styles.button} />
+          <Button link="mailto:ujjwal158b@gmail.com" text="Contact" />
+          <Button2
+            link="#projects"
+            text="View projects"
+            className={styles.button}
+          />
         </div>
       </div>
       <img src={heroImg} alt="hero-img" className={styles.hero__img} />
