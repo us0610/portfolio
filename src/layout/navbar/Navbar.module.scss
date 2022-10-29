@@ -32,6 +32,10 @@ ul {
   list-style: none;
   display: flex;
   gap: 30px;
+
+  li:hover {
+    text-decoration: underline;
+  }
 }
 
 .nav__socials__wrapper {
@@ -43,6 +47,11 @@ ul {
 
 .socials {
   height: 24px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    opacity: 0.7;
+  }
 }
 
 @media screen and (max-width: 500px) {
