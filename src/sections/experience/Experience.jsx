@@ -28,7 +28,7 @@ const Experience = () => {
           duration="May 2020 - Present"
           tasks={[
             "Created more than 20+ projects with webflow and custom code.",
-            "Created templates in webflow platform and suffisticated CMS websites.",
+            "Created templates in webflow platform and CMS websites.",
           ]}
         />
       </div>
