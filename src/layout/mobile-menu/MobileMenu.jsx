@@ -57,7 +57,7 @@ const MobileMenu = ({ onMobileMenu }) => {
               <img src={upworkLogo} alt="upwork" />
             </a>
           </div>
-          <Button text="Resume" />
+          <Button link="./Resume.pdf" text="Resume" />
         </div>
       </div>
     </div>

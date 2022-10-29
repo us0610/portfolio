@@ -64,7 +64,7 @@ const Navbar = () => {
               >
                 <img src={upworkLogo} alt="upwork" />
               </a>
-              <Button text="Resume" />
+              <Button link="./Resume.pdf" text="Resume" />
             </div>
             <p onClick={onMenuClick} className={styles.menu__btn}>
               {menu ? "close" : "Menu"}
