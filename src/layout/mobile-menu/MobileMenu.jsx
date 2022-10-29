@@ -15,16 +15,26 @@ const MobileMenu = ({ onMobileMenu }) => {
       <div>
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <a onClick={onMobileMenu} href="#home">
+              Home
+            </a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a onClick={onMobileMenu} href="#about">
+              About
+            </a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a onClick={onMobileMenu} href="#projects">
+              Projects
+            </a>
           </li>
           <li>
-            <a target="_blank" href="mailto:ujjwal158b@gmail.com">
+            <a
+              onClick={onMobileMenu}
+              target="_blank"
+              href="mailto:ujjwal158b@gmail.com"
+            >
               Contact
             </a>
           </li>
